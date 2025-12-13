@@ -8,6 +8,7 @@ This document catalogs which strategies from the unified evaluation workflow are
 
 #### Step A: Harness Installation
 
+- ✅ **Strategy 1: Git Clone** - JiWER can be cloned from the source code repository (`git clone https://github.com/jitsi/jiwer.git`) and installed manually from source
 - ✅ **Strategy 2: PyPI Packages** - JiWER can be installed via `pip install jiwer` or `uv add jiwer`
 
 #### Step B: Credential Configuration
@@ -77,10 +78,10 @@ This document catalogs which strategies from the unified evaluation workflow are
 
 ## Summary
 
-JiWER natively supports **7 out of 66 total strategies** across the unified evaluation workflow:
+JiWER natively supports **8 out of 66 total strategies** across the unified evaluation workflow:
 
 **Supported Phases:**
-- Phase 0: Provisioning - 1/10 strategies (10%)
+- Phase 0: Provisioning - 2/10 strategies (20%)
 - Phase I: Specification - 3/11 strategies (27%)
 - Phase II: Execution - 1/4 strategies (25%)
 - Phase III: Assessment - 2/6 strategies (33%)

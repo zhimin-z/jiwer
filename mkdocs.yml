@@ -35,6 +35,7 @@ nav:
   - jiwer: index.md
   - Usage: usage.md
   - Command-line interface: cli.md
+  - Evaluation Workflow Support: evaluation-workflow-support.md
   - API reference: reference/
 
 markdown_extensions:

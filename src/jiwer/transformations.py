@@ -45,7 +45,7 @@ wer_default = tr.Compose(
     ]
 )
 """
-This is the default transformation when using `proces_words`. Each input string will 
+This is the default transformation when using `process_words`. Each input string will 
 have its leading and tailing white space removed. 
 Thereafter multiple spaces between words are also removed. 
 Then each string is transformed into a list with lists of strings, where each string
@@ -95,7 +95,7 @@ wer_standardize_contiguous = tr.Compose(
     ]
 )
 """
-This is the same as `wer_standardize`, but this version can be usd when the number of
+This is the same as `wer_standardize`, but this version can be used when the number of
 reference and hypothesis sentences differ. 
 """
 
